@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    padding: 30px;
+    background: #a98888;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
+  .gran {
+    padding: 30px;
+    background: #ffffff;
+    width: 470px;
+    height: 220px;
+    position: relative;
+    border-radius: 25px;
+  }
+
+  .baza {
+    background: #ffffff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* padding: 15px 20px; */
+    /* margin-bottom: 20px; */
+    width: 450px;
+    height: 200px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.red{
+    background:red;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+
+}
+
+.Russia_white{
+  background: #ffffff;
+  width: 450px;
+  height: 65px;
+  position: absolute;
+  top:120%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+.Russia_blue{
+  background: #1800f4;
+  width: 450px;
+  height: 65px;
+  position: absolute;
+  top:51%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+.Russia_red{
+  background: #f40000;
+  width: 450px;
+  height: 65px;
+  position: absolute;
+  top:150%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+.Canada_1 {
+  background: #f40000;
+  width: 150px;
+  height: 195px;
+  position: absolute;
+  top:280%;
+  left: 16.7%;
+  transform: translate(-50%,50%);
+}
